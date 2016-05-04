@@ -20,7 +20,8 @@ body div div nav ul{
 }
 #nd-nav{
   margin-bottom: 10px;
-}、
+}
+
 #archives .arti-with-pic .title{
   color: rgb(96,190,174);
   font-size: 1.8rem;
@@ -29,8 +30,6 @@ body div div nav ul{
   color: #AAA;
 }
 
-
-<!-- 版型一 -->
 @media screen and (max-width: 480px) { 
   #wrapper{
     max-width: 350px;
@@ -108,10 +107,9 @@ body div div nav ul{
   #archives .arti-with-pic .img img{
     max-width: 100%;
   }
+
 }
 
-
-<!-- 版型二 -->
 @media screen and (min-width: 481px) and (max-width: 768px) { 
   #wrapper{
     max-width: 480px;
@@ -189,8 +187,6 @@ body div div nav ul{
   }  
 }
 
-
-<!-- 版型三 -->
 @media screen and (min-width: 769px) and (max-width: 991px){ 
   #wrapper{
     max-width: 768px;
@@ -268,20 +264,18 @@ body div div nav ul{
 }
 
 
-<!-- 版型四 -->
+
 @media screen and (min-width: 992px) { 
+<!-- 版型四 -->
   body aside p{
     margin-right: 100px;
+	color: rgb(87,87,87);
+	font-size: 0.8rem;
   }
   body aside h5{
     color: rgb(87,87,87);
     font-size: 1rem;
     text-transform: uppercase;
-  }
-  
-  body aside p{
-    color: rgb(87,87,87);
-    font-size: 0.8rem;
   }
   .icon {
     width: 100px;
@@ -322,7 +316,7 @@ body div div nav ul{
   .pic{
     height:445px;
   }
-  #wrapper {
+  #wrapper{
     max-width: 991px;
     display: flex;
     flex-wrap: wrap;
@@ -330,8 +324,7 @@ body div div nav ul{
     margin-right: auto;
     margin-left: auto;
   }
-
-  #nav-info {
+  #nav-info{
     width: 20%;
   }
   #main {
@@ -355,5 +348,5 @@ body div div nav ul{
   }
   #archives .arti-with-pic .img img{
     max-width: 100%;
-  }  
+  }
 }
